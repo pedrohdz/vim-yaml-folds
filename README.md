@@ -1,8 +1,8 @@
 # vim-yaml-folds
 
-Very simple folding configuration for YAML, RAML and SaltStack SLS files.  For
-more details and screenshots, please read my blog post: [Vim folding rules for
-YAML][].
+Very simple folding configuration for YAML, Puppet/Hiera EYAML, RAML and
+SaltStack SLS files.  For more details and screenshots, please read my blog
+post: [Vim folding rules for YAML][].
 
 Install using either [Pathogen][], [Vundle][], or similar.
 
