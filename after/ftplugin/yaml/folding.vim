@@ -28,7 +28,10 @@ endfunction
 
 setlocal foldmethod=expr
 setlocal foldexpr=YamlFolds()
-setlocal foldtext=YamlFoldText()
+
+if get(g:, "yamlfolds_use_yaml_fold_text", v:true)
+  setlocal foldtext=YamlFoldText()
+endif
 
 let b:undo_ftplugin =
       \ exists('b:undo_ftplugin')

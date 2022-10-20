@@ -10,6 +10,14 @@ Install using either [Pathogen][], [Vundle][], or similar.
 Vim script ID is [5559][].
 
 
+### Configuration
+
+```vim
+" Don't use `YamlFoldText()` of vim-yaml-folds.
+let g:yamlfolds_use_yaml_fold_text = v:false
+```
+
+
 ### Packaging
 
 Quick notes on packaging for vim.org, remember to update the version number:
